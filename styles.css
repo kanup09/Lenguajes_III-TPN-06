@@ -1,10 +1,9 @@
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 body{
     display: flex;
     justify-content: center;
@@ -13,7 +12,7 @@ body{
 }
 
 form{
-    background-color:rgb(222, 238, 238);
+    background-color:rgba(208, 210, 223, 0.644);
     padding: 20px;
     width: 100%;
     max-width: 300px;
@@ -26,15 +25,21 @@ form{
     align-items: stretch;
 
 }
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #000;
+}
+
 input{
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
     
 }
-
 #boton{
     padding: 10px;    
     color: #2f75dd;
@@ -42,6 +47,9 @@ input{
 }
 
 #titulo-form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color:#2f75dd;
     width: 100%;
     display: flex;
     align-items: center;
