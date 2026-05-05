@@ -4,6 +4,8 @@ formulario.addEventListener("submit",function(event){
     validarFormulario();
 });
 
+
+
 function validarFormulario(){
     const nombre = document.getElementById('nom').value.trim();
     const edad = document.getElementById('edad').value.trim();
